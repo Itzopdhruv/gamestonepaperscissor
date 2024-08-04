@@ -26,7 +26,7 @@ const showWinner = (userWin , userChoice , compChoice)=>{
     else{
         compScore++;
         showCompScore.innerText = compScore;
-        msgContainer.innerText = `Your ${userChoice} is beaten by comp's choice that is ${compChoice}. Try Again`
+        msgContainer.innerText = `Your ${userChoice} is beaten by comp's choice (${compChoice}). Try Again`
         msgContainer.style.backgroundColor = "red";
 
     }
